@@ -22,10 +22,10 @@ public class Diamond {
             return n;
         }
         private static String getNameFromUser() {
-        System.out.print("Enter name : ");
-        Scanner sc = new Scanner(System.in);
-        String name = sc.next();
-        return name;
+            System.out.print("Enter name : ");
+            Scanner sc = new Scanner(System.in);
+            String name = sc.next();
+            return name;
         }
     }
 
